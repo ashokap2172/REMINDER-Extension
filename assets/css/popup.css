@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    /* background-color:thistle; */
+    background: linear-gradient(rgba(11, 236, 229, 0.863),rgba(8, 241, 31, 0.925));
+
+}
+#timeNow{
+    border: 2px solid black;
+    height: 16px;
+    text-align: center;
+    padding: 3px 0px;
+    font-weight: bold;
+    border-radius: 5px;
+    background:linear-gradient(rgba(248, 246, 246, 0.863),rgba(136, 146, 137, 0.925));;
+
+}
+
+
+#box input{
+    padding: 4px;
+    margin: 3px 0px;
+    align-items: center;
+    width: 93%;
+}
+
+#add{
+    padding: 4px;
+    font-weight: bolder;
+    margin: 4px 0px;
+}
+
+#list{
+    border: 2px solid rgb(0, 0, 0);
+    height: 80px;
+    padding: 4px;
+    margin: 2px 0px;
+    overflow: auto;
+    background:linear-gradient(rgba(167, 213, 234, 0.863),rgba(229, 229, 175, 0.925));;
+
+}
+
+#list li{
+    list-style: none;
+    font-weight: 600;
+}
+
+#list button{
+    margin: 0px 4px;
+    padding: 0px 2px;
+    font-size: 11px;
+    font-weight: 600;
+    color: red;
+}
